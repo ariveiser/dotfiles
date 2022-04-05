@@ -52,3 +52,9 @@
 [user]
 	email = arianaveiser@gmail.com
 	name = ariana veiser
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
